@@ -44,6 +44,9 @@ export default function Page() {
             alt='Screenshots of the dashboard project showing mobile version' />
         </div>
       </div>
+      <p>
+        Go to the <a href="http://localhost:3000/dashboard">dashboard</a>
+      </p>
     </main>
   );
 }
