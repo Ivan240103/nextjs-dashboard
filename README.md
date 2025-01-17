@@ -23,6 +23,8 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
   *Static rendering* velocizza il sito, riduce il carico del server e migliora l'indicizzazione SEO. *Dynamic rendering* si usa quando bisogna mostrare dati in tempo reale, dati specifici per l'utente o quando servono informazioni note soltanto a request time. Con quest'ultimo l'applicazione è veloce quanto il fetch più lento.
 9. **Streaming**  
   Lo *streaming* permette di caricare i dati dal server "a pezzi" e usarli nell'app man mano che diventano disponibili. `loading.tsx` per definire un fallback per l'intera pagina mentre i dati si caricano. `<Suspense>` per wrappare un componente e definire un fallback solo per esso. Uno *skeleton* è una visualizzazione di attesa che fa intendere il caricamento dei dati. `/(folder)` crea un *route group*, il cui nome viene ignorato nel routing, per separare logicamente i file. Buona prassi usare *Suspense* con i singoli componenti che lo necessitano.
+10. **Partial Prerendering**
+  Il *partial prerendering* consente di combinare rendering statico e dinamico in una stessa route. Si implementa wrappando le componenti dinamiche con i `<Suspense />`, previa attivazione della configurazione *ppr*.
 
 ## Participants
 Ivan De Simone
