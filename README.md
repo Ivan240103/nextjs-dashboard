@@ -9,6 +9,10 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 2. CSS Styling
 3. Optimizing Fonts and Images
 4. Creating Layouts and Pages
+5. Navigating Between Pages
+6. Setting Up Your Database
+7. Fetching Data
+8. Static and Dynamic Rendering
 
 ## Participants
 Ivan De Simone
