@@ -33,6 +33,12 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
   File speciale `error.tsx` per avere un fallback in caso di eccezioni non catturate (deve essere un *client component*). Funzione `notFound()` da `next/navigation` per mostrare un fallback specifico per gli errori 404, definito nel file `not-found.tsx`.
 14. **Improving Accessibility**
   Usare `next lint` per ricevere warning su problemi di accessibilità. L'hook `useActionState` in combinazione con le etichette *aria-* permette di migliorare l'accessibilità dei form anche in caso di errori.
+15. **Adding Authentication**
+  Utilizzare il modulo `NextAuth.js` per astrarre la gestione di sessioni, login, logout, ecc. Provider *Credentials* per autenticare con username e password. Usare i middleware per proteggere le route.
 
 ## Participants
 Ivan De Simone
+
+### Dummy credentials
+Email: user@nextmail.com
+Password: 123456
