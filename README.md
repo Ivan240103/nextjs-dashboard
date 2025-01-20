@@ -29,6 +29,8 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
   Effettuare le ricerche nel db e la paginazione dei dati usando gli URL invece che gli state, tramite gli hook `useSearchParams` per i parametri, `usePathname` per il path corrente e `useRouter` per la navigazione. `URLSearchParams` = oggetto per gestire i parametri delle query. Implementazione *debounce* per eseguire la ricerca solo quando l'utente smette di digitare.
 12. **Mutating Data**
   Le *React Server Actions* servono per implementare funzioni asincrone direttamente sul server. Libreria `zod` per fare type validation. Funzione `revalidatePath()` per aggiornare la cache del client. Funzione `redirect()` da `next/navigation` per reindirizzare il client tramite l'URL. `/[folder]` crea una route dinamica, il cui nome compare nel routing. `params` nei props per accedere gli elementi dinamici della route.
+13. **Handling Errors**
+  File speciale `error.tsx` per avere un fallback in caso di eccezioni non catturate (deve essere un *client component*). Funzione `notFound()` da `next/navigation` per mostrare un fallback specifico per gli errori 404, definito nel file `not-found.tsx`.
 
 ## Participants
 Ivan De Simone
