@@ -35,10 +35,12 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
   Usare `next lint` per ricevere warning su problemi di accessibilità. L'hook `useActionState` in combinazione con le etichette *aria-* permette di migliorare l'accessibilità dei form anche in caso di errori.
 15. **Adding Authentication**
   Utilizzare il modulo `NextAuth.js` per astrarre la gestione di sessioni, login, logout, ecc. Provider *Credentials* per autenticare con username e password. Usare i middleware per proteggere le route.
+16. **Adding Metadata**
+  I *metadati* sono cruciali per l'indicizzazione della pagina web. Si possono inserire da codice con il modulo `Metadata` di `next` oppure tramite file speciali (*favicon.ico*, *sitemap.xml*, ...).
 
 ## Participants
 Ivan De Simone
 
 ### Dummy credentials
-Email: user@nextmail.com
+Email: user@nextmail.com  
 Password: 123456
